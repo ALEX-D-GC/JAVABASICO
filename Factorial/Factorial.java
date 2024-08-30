@@ -10,6 +10,7 @@ public class Factorial {
         Scanner in = new Scanner(System.in);
 
         // Imprimimos un mensaje para el usuario pidiendole que ingrese un numero
+        System.out.println("Porfavor no se olvide de ingresar un numero entero");
         System.out.print("Por favor ingrese un numero entero para calcular su Factorial: ");
         int numero = in.nextInt();/*
                                    * scanner para leer un número entero ingresado por el usuario. El método
